@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms </title>
+    <style>
+        #email{
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 8px;
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 6px;
+        }
+
+        .password{
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 6px;
+            border: 2px solid black;
+            border-radius: 6px;
+        }
+        .emails{
+        font-size: larger;
+        }
+        .enter{
+            font-size: larger;
+        }
+       .login{
+        font-weight: 500;
+        font-size: 15px;
+        padding: 6px 10px;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        border-radius: 4px;
+       }
+       .container{
+        display: block;
+        margin:0  auto;
+        margin-top: 200px;
+        background-color:aliceblue;
+        opacity: 0.8;
+        padding: 20px;
+        max-width: 400px;
+        border-radius: 10px;
+
+       }
+       body{
+        background-image: url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+       }
+        
+
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+       
+            <form>
+                <h1>Welcome back</h1>
+                     <label for="email" class="emails">Enter your email</label>
+                    <input type="email" id="email"/>
+                
+
+                
+                    <label class="enter">Enter your password</label>
+                    <input type="password" required class="password">
+                
+                <input type="submit" value="login" class="login">
+            </form>
+    </div>
+</body>
+
+</html>
